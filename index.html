@@ -11,10 +11,12 @@
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
     body {
-      font-family: 'Nunito', sans-serif; 
-      color : #777777;
+      font-family: 'Nunito', sans-serif;
+      color: #777777;
     }
+
     .containbg {
       background-image: url('https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
       background-repeat: no-repeat;
@@ -52,185 +54,280 @@
       text-align: center;
       font-size: 10px;
     }
+
     .navbar a {
       color: black;
     }
+
     .nav-link {
       text-transform: uppercase;
     }
-    .philunder {
 
-    }
+    .philunder {}
+
     .philunder::after {
-    content: " ";
-    display: block;
-    margin: 15px auto 0;
-    width: 150px;
-    height: 3px;
-    background: #7ebbb6;
+      content: " ";
+      display: block;
+      margin: 15px auto 0;
+      width: 150px;
+      height: 3px;
+      background: #7ebbb6;
     }
+
     .btn-learnmore {
       background-color: #7ebbb6;
       color: white;
       border-radius: 0;
     }
+
     .contain2bg {
       background-color: #E8F6F6;
       z-index: 0;
     }
+
     .contain2within {
       background-color: white;
       box-shadow: -3px 3px 3px #ccc;
       z-index: 2;
       width: 90%
-
     }
+
     .contain2within h3 {
       color: #12326b;
-    text-transform: uppercase;
+      text-transform: uppercase;
     }
+
     .contain2within h3 span {
-    font-weight: 700;
-}
+      font-weight: 700;
+    }
 
-.contain2within h3::after {
-    content: " ";
-    display: block;
-    margin: 15px 0;
-    width: 150px;
-    height: 3px;
-    background: #7ebbb6;
-}
-a {
-    color: #12326b;
-    font-weight: bold;
-    font-style: normal;
-    text-decoration: none;
-}
-.bottom-20 {
-  bottom: 30px;
-}
-.contactblock i {
-  margin: 0 10px 0 0;
-    color: #7ebbb6;
-}
+    .contain2within h3::after {
+      content: " ";
+      display: block;
+      margin: 15px 0;
+      width: 150px;
+      height: 3px;
+      background: #7ebbb6;
+    }
 
-.dark {
-  --bs-bg-opacity: 0.05;
-    background-color: rgba(18, 50, 107,var(--bs-bg-opacity))!important;
-}
-.leaf {
-  z-index: 1;
-}
+    a {
+      color: #12326b;
+      font-weight: bold;
+      font-style: normal;
+      text-decoration: none;
+    }
 
-.leftsidecol {
-  background: #12326b;
-    color: #fff;
-    padding: 50px;
-}
-.rightsidecol {
-  background: #dcdcdc;
-    padding: 50px;
-}
-.qtcol {
-  padding: 50px;
-}
-.quotes::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background: url(https://demo.hotjoomlatemplates.com/leaves/media/templates/site/leaves/images/custom/quote_left.png);
-    background-size: 50px 50px;
-}
+    .bottom-20 {
+      bottom: 30px;
+    }
 
-.quotes::after {
-    content: " ";
-    display: block;
-    float: right;
-    width: 50px;
-    height: 50px;
-    background: url(https://demo.hotjoomlatemplates.com/leaves/media/templates/site/leaves/images/custom/quote_right.png);
-    background-size: 50px 50px;
-    margin-top: -60px;
-}
-.quotes p {
-    margin-left: 90px;
-    margin-right: 90px;
-}
+    .contactblock i {
+      margin: 0 10px 0 0;
+      color: #7ebbb6;
+    }
 
+    .dark {
+      --bs-bg-opacity: 0.05;
+      background-color: rgba(18, 50, 107, var(--bs-bg-opacity)) !important;
+    }
 
-.row {
-  --bs-gutter-x: 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
+    .leaf {
+      z-index: 1;
+    }
 
-  .row > [class^="col-"] {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+    .leftsidecol {
+      background: #12326b;
+      color: #fff;
+      padding: 50px;
+    }
 
-  .col-md-8 {
-    display: flex;
-  }
+    .rightsidecol {
+      background: #dcdcdc;
+      padding: 50px;
+    }
 
-  .col-md-8 .row {
-    flex: 1;
-  }
+    .qtcol {
+      padding: 50px;
+    }
+
+    .quotes::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: url(https://demo.hotjoomlatemplates.com/leaves/media/templates/site/leaves/images/custom/quote_left.png);
+      background-size: 50px 50px;
+    }
+
+    .quotes::after {
+      content: " ";
+      display: block;
+      float: right;
+      width: 50px;
+      height: 50px;
+      background: url(https://demo.hotjoomlatemplates.com/leaves/media/templates/site/leaves/images/custom/quote_right.png);
+      background-size: 50px 50px;
+      margin-top: -60px;
+    }
+
+    .quotes p {
+      margin-left: 90px;
+      margin-right: 90px;
+    }
 
 
-  .containbg2 {
-    background-image: url(https://images.unsplash.com/39/wdXqHcTwSTmLuKOGz92L_Landscape.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1749&q=80);
-    background-position: top center;
-    background-repeat: repeat;
-    background-size: cover;
-  }
+    .row {
+      --bs-gutter-x: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
 
-  .bgcontain2 {
-    background-color: rgb(18 50 107 / 62%);
-    width: 80%;
-  }
-  .textin2 {
-    color: white;
-    width: 60%;
-  }
-  .textin2 h4 {
-    font-weight: 700;
-  }
-  .textin2 p {
-    font-weight: 100;
-    font-size: 0.9rem;
-  }
-  .textin2 hr {
-    display: block;
-    margin: 20px 0 5px;
-    width: 150px;
-    height: 3px;
-    background: #81BCBA;
-    border: 0;
-}
-.textin2 a {
-  color: #81BCBA;
-  text-decoration: none;
-}
-  .formin2 {
-    color: white;
-    width: 40%;
-  }
-  .formin2 h3 {
-    color: #00317A;
-    font-weight: 900;
-  }
-  .formin2 form {
-    box-shadow: 0 15px 30px rgba(0,0,0,.3);
-  }
-  .formin2 form small {
-    color: #89838E;
-  }
+    .row>[class^="col-"] {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .rowfoot {
+      align-items: flex-start !important;
+      justify-content: flex-start !important;
+
+    }
+
+    .col-md-8 {
+      display: flex;
+    }
+
+    .col-md-8 .row {
+      flex: 1;
+    }
+
+
+    .containbg2 {
+      background-image: url(https://images.unsplash.com/39/wdXqHcTwSTmLuKOGz92L_Landscape.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1749&q=80);
+      background-position: top center;
+      background-repeat: repeat;
+      background-size: cover;
+    }
+
+    .bgcontain2 {
+      background-color: rgb(18 50 107 / 62%);
+      width: 80%;
+    }
+
+    .textin2 {
+      color: white;
+      width: 60%;
+    }
+
+    .textin2 h4 {
+      font-weight: 700;
+    }
+
+    .textin2 p {
+      font-weight: 100;
+      font-size: 0.9rem;
+    }
+
+    .textin2 hr {
+      display: block;
+      margin: 20px 0 5px;
+      width: 150px;
+      height: 3px;
+      background: #81BCBA;
+      border: 0;
+    }
+
+    .textin2 a {
+      color: #81BCBA;
+      text-decoration: none;
+    }
+
+    .formin2 {
+      color: white;
+      width: 40%;
+    }
+
+    .formin2 h3 {
+      color: #00317A;
+      font-weight: 900;
+    }
+
+    .formin2 form {
+      box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+    }
+
+    .formin2 form small {
+      color: #89838E;
+    }
+
+    .imagefield {
+      width: 75%;
+    }
+
+    .imagefield h3::after {
+      content: " ";
+      display: block;
+      margin: 15px 0;
+      width: 150px;
+      height: 3px;
+      background: #7ebbb6;
+    }
+
+    .imagefield h3 {
+      color: #12326b;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .simple h4 {
+      color: #12326b;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .profimg {
+      width: 70%;
+      border-radius: 50%;
+      background-color: #272A27;
+    }
+
+    footer {
+      background-color: #123468;
+      color: white;
+    }
+
+    footer a {
+      color: white;
+      font-weight: 100;
+    }
+    .marginfoot {
+      margin: 10px 0;;
+    }
+    .circle {
+      display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 0;
+    margin-right: 15px;
+    background: #80bbb6;
+    text-align: center;
+    border-radius: 50%;
+    }
+    .footimg {
+      background-image: url(https://images.unsplash.com/photo-1485134532658-d720895a3b5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80) ;
+    }
+    .footimg div::after {
+      content: '';
+      margin: 1%;
+    }
+    .footimg::after {
+      content: '';
+      margin: 1%;
+    }
   </style>
 </head>
 
@@ -243,10 +340,11 @@ a {
           <i class="fa fa-bell" aria-hidden="true"></i>
           <div class="d-flex flex-column">
             <h3 class="fw-bolder">KETAMINE<span> CLINIC</span></h3>
-          <p>OF PHILADELPHIA</p>
-        </div>
+            <p>OF PHILADELPHIA</p>
+          </div>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -276,10 +374,10 @@ a {
       <h4 class="fw-light philunder">OF PHILADELPHIA</h4>
       <p>
         Dr.Danish and Dr.Kelly specialize in the use of ketamine infusion for depression,
-         anxiety, PTSD, and fibromyalgia.
+        anxiety, PTSD, and fibromyalgia.
       </p>
 
-      <button class="btn btn-sm pe-4 ps-4 btn-learnmore">LEARN MORE       <i class="fa fa-caret-right"></i>
+      <button class="btn btn-sm pe-4 ps-4 btn-learnmore">LEARN MORE <i class="fa fa-caret-right"></i>
       </button>
     </div>
   </div>
@@ -291,11 +389,11 @@ a {
         <div class="d-flex abtcontainer">
           <div class="w-50 p-4">
             <p class="mt-1">Ketamine infusion is a fast and effective way totreat patients
-            with depression, certain anxiety disorders, and PTSD
-            symptons that have failed previous treatment. It can be effective
-            for those suffering from fibromyalgia. Ketamine
-            infusion works quickly, effectively, and with few known sife effects.</p>
-          <p class="mt-1">Please look at our <a href="#">Frequently Asked Questions</a> for more information</p>
+              with depression, certain anxiety disorders, and PTSD
+              symptons that have failed previous treatment. It can be effective
+              for those suffering from fibromyalgia. Ketamine
+              infusion works quickly, effectively, and with few known sife effects.</p>
+            <p class="mt-1">Please look at our <a href="#">Frequently Asked Questions</a> for more information</p>
           </div>
           <div class="contactblock w-50 p-4">
             <a href="#">Contact us for more information and a free evaluation:</a>
@@ -306,7 +404,8 @@ a {
         </div>
       </div>
       <div class="leafimg position-absolute bottom-50 end-0">
-        <img src="https://demo.hotjoomlatemplates.com/leaves/images/leaves.jpg" width="520" height="347" alt="" srcset="">
+        <img src="https://demo.hotjoomlatemplates.com/leaves/images/leaves.jpg" width="520" height="347" alt=""
+          srcset="">
       </div>
     </div>
     <div class="container d-flex mt-5 justify-content-center align-items-center">
@@ -316,30 +415,37 @@ a {
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-4">
-              <img class="w-100" src="https://images.unsplash.com/photo-1540485104458-f27cfe2375b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80" alt="">
+              <img class="w-100"
+                src="https://images.unsplash.com/photo-1540485104458-f27cfe2375b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+                alt="">
             </div>
             <div class="col-md-8">
               <div class="row">
                 <div class="col-md-6 leftsidecol">
-                  Ketamine Infusion can lead to rapid reduction in depressive symptoms within hours unlike traditional treatments, which can take months.
+                  Ketamine Infusion can lead to rapid reduction in depressive symptoms within hours unlike traditional
+                  treatments, which can take months.
                 </div>
                 <div class="col-md-6 rightsidecol">
-                  Ketamine can help as many as 80% of patients who have failed multiple other treatments for depression <br>
+                  Ketamine can help as many as 80% of patients who have failed multiple other treatments for depression
+                  <br>
                   <p class="mt-1"><i><b>Henderson TA, 2016</b></i></p>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12 qtcol">
                   <div class="quotes">
-                    <p>Ketamine saved my life! I'm hanging out with friends again and feel like I have a whole new purpose!</p>
-                    <center><p><strong>30 year old female</strong></p></center>
+                    <p>Ketamine saved my life! I'm hanging out with friends again and feel like I have a whole new
+                      purpose!</p>
+                    <center>
+                      <p><strong>30 year old female</strong></p>
+                    </center>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
+
 
 
       </div>
@@ -350,28 +456,37 @@ a {
     <div class="container bgcontain2 d-flex">
       <div class="textin2 p-5">
         <h4>Is Ketamine safe?</h4>
-        <p>Ketamine infusion for depression has, thus far, been found to be extremely safe and without significant side effects. It is used at doses lower than what are used for anesthesia. <a href="#">></a></p>
+        <p>Ketamine infusion for depression has, thus far, been found to be extremely safe and without significant side
+          effects. It is used at doses lower than what are used for anesthesia. <a href="#">></a></p>
         <hr class="mt-4 mb-4">
         <h4>Is ketamine for me?</h4>
-        <p>You may be a candidate for ketamine infusion if you suffer from depression, certain anxiety disorders, Posttraumatic Stress Disorders (PTSD), or fibromyalgia that has not responded to other treatments. <a href="#">></a></p>
+        <p>You may be a candidate for ketamine infusion if you suffer from depression, certain anxiety disorders,
+          Posttraumatic Stress Disorders (PTSD), or fibromyalgia that has not responded to other treatments. <a
+            href="#">></a></p>
         <hr class="mt-4 mb-4">
         <h4>How does the whole process work?</h4>
-        <p>We have created an easy yet thorough process to ensure that you are a good fit for ketamine infusion. Please visit <a href="#">this page</a> for the overview of the process. <a href="#">></a></p>
+        <p>We have created an easy yet thorough process to ensure that you are a good fit for ketamine infusion. Please
+          visit <a href="#">this page</a> for the overview of the process. <a href="#">></a></p>
       </div>
       <div class="formin2 position-relative p-1 pt-3">
-      
-        <form class="bg-white position-absolute p-5 text-black">
-          <center class="pt-1"><h3>CONTACT US NOW:</h3></center>
+
+        <form class="bg-white position-absolute pe-5 ps-5 pt-4 pb-4 text-black">
+          <center class="">
+            <h3>CONTACT US NOW:</h3>
+          </center>
           <div class="mb-3">
-            <input type="text" placeholder="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="text" placeholder="Name" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
-            <input type="phone" placeholder="Phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="phone" placeholder="Phone" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
-            <small>Is it okay for our staff to call you and leave a voicemail with information pertaining to your condition and our treatment?
+            <small>Is it okay for our staff to call you and leave a voicemail with information pertaining to your
+              condition and our treatment?
             </small>
-              <br>
+            <br>
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
               <label class="form-check-label" for="inlineRadio1">Yes</label>
@@ -382,12 +497,14 @@ a {
             </div>
           </div>
           <div class="mb-3">
-            <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
-            <small>Is it okay for our staff to email you with information pertaining to your condition and our treatment?
+            <small>Is it okay for our staff to email you with information pertaining to your condition and our
+              treatment?
             </small>
-              <br>
+            <br>
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
               <label class="form-check-label" for="inlineRadio1">Yes</label>
@@ -403,14 +520,89 @@ a {
           <center><button class="btn btn-sm pe-5 ps-5 btn-learnmore">Submit</button></center>
 
         </form>
-        
+
 
       </div>
     </div>
   </div>
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container imagefield mt-5">
+      <h3>Who we are:</h3>
+      <p class="mb-5">
+        We are a group of doctors, therapists, and nurses who are so excited to bring such an effective treatment
+        to patients who have been waiting for something to work. We have all had significant experience working
+        in the mental health field so we know how ineffective older treatments can be for some patients. Please
+        click on our personal profiles below to learn a little about each of our backgrounds.
+      </p>
+      <div class="container d-flex justify-content-around align-content-center">
+        <div class="row">
+          <div class="col-sm-4 simple d-flex">
+            <img src="./assets/prof1.png" alt="" class="profimg">
+            <h4 class="mt-4">David Danish, MD</h4>
+          </div>
+          <div class="col-sm-4 simple d-flex">
+            <img src="./assets/prof2.png" alt="" class="profimg">
+            <h4 class="mt-4">Dr. Peter Kelly</h4>
+          </div>
+          <div class="col-sm-4 simple d-flex">
+            <img src="./assets/prof3.png" alt="" class="profimg">
+            <h4 class="mt-4">Anna Rugirello LPC</h4>
+          </div>
+        </div>
+      </div>
 
-  <div class="container-fluid vh-100 pt-5 pb-5">
+    </div>
+  </div>
+  <footer class="container-fluid pt-5 pb-5">
+    <div class="row container w-75 m-auto">
+      <div class="col-md-4 rowfoot">
+        <h2>NAVIGATION</h2>
+        <div class="marginfoot">
+          <a>Home</a> <br>
+          <a>About Ketamine</a><br>
+          <a>About Us</a><br>
+          <a>Patient Forms</a><br>
+          <a>Contact Us</a><br>
+        </div>
+      </div>
+      <div class="col-md-4 rowfoot">
+        <h2>CONTACTS</h2>
+        <div class="marginfoot">
+          <a><i class="fa fa-phone"></i> 215-588-1260</a><br>
+          <a> <i class="fa fa-envelope"></i> info@kcofp.com</a><br>
+          <a><i class="fa fa-map-marker"></i> 111 Forrest Ave, 2nd Floor Narbeth, PA 19072</a>
+        </div>
+
+      </div>
+      <div class="col-md-4 rowfoot">
+        <div class="marginfoot w-100 d-flex flex-column justify-content-center">
+          <div class="d-flex justify-content-center">  
+          <i class="fa fa-facebook circle"></i>
+            <i class="fa fa-twitter circle"></i>
+            <i class="fa fa-linkedin circle"></i>
 </div>
+            <div>
+              <a class="navbar-brand d-flex justify-content-center lh-1 mt-2" href="#">
+                <i class="fa fa-bell" style="color: #ffffff;" aria-hidden="true"></i>
+                <div class="d-flex flex-column">
+                  <h3 class="fw-bolder">KETAMINE<span> CLINIC</span></h3>
+                  <p>OF PHILADELPHIA</p>
+                </div>
+              </a>
+            </div>
+            <center><a>2023 Copyright. All right Reserved</a></center>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="container-fluid h-25 footimg">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
   <!-- <script>
     window.addEventListener('scroll', function() {
       const darkElements = document.querySelectorAll('.dark');
@@ -426,7 +618,7 @@ a {
       }
     });
   </script> -->
-  
+
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
