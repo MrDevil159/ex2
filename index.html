@@ -8,337 +8,20 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="style.css">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
-    body {
-      font-family: 'Nunito', sans-serif;
-      color: #777777;
-    }
-
-    .containbg {
-      background-image: url('https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .bg1 {
-      background-color: rgba(18, 50, 107, 0.7);
-      width: 80%;
-    }
-
-    .navbar-brand .left {
-      float: left;
-      padding-top: 5px
-    }
-
-    .navbar-brand .fa-bell {
-      color: #00317A;
-      padding-right: 7px;
-      font-size: 2.3rem;
-      position: relative;
-      top: 5px;
-    }
-
-    .navbar-brand h3 {
-      display: inline;
-      font-size: 17px;
-    }
-
-    .navbar-brand h3 span {
-      font-weight: normal;
-    }
-
-    .navbar-brand p {
-      text-align: center;
-      font-size: 10px;
-    }
-
-    .navbar a {
-      color: black;
-    }
-
-    .nav-link {
-      text-transform: uppercase;
-    }
-
-    .philunder {}
-
-    .philunder::after {
-      content: " ";
-      display: block;
-      margin: 15px auto 0;
-      width: 150px;
-      height: 3px;
-      background: #7ebbb6;
-    }
-
-    .btn-learnmore {
-      background-color: #7ebbb6;
-      color: white;
-      border-radius: 0;
-    }
-
-    .contain2bg {
-      background-color: #E8F6F6;
-      z-index: 0;
-    }
-
-    .contain2within {
-      background-color: white;
-      box-shadow: -3px 3px 3px #ccc;
-      z-index: 2;
-      width: 90%
-    }
-
-    .contain2within h3 {
-      color: #12326b;
-      text-transform: uppercase;
-    }
-
-    .contain2within h3 span {
-      font-weight: 700;
-    }
-
-    .contain2within h3::after {
-      content: " ";
-      display: block;
-      margin: 15px 0;
-      width: 150px;
-      height: 3px;
-      background: #7ebbb6;
-    }
-
-    a {
-      color: #12326b;
-      font-weight: bold;
-      font-style: normal;
-      text-decoration: none;
-    }
-
-    .bottom-20 {
-      bottom: 30px;
-    }
-
-    .contactblock i {
-      margin: 0 10px 0 0;
-      color: #7ebbb6;
-    }
-
-    .dark {
-      --bs-bg-opacity: 0.05;
-      background-color: rgba(18, 50, 107, var(--bs-bg-opacity)) !important;
-    }
-
-    .leaf {
-      z-index: 1;
-    }
-
-    .leftsidecol {
-      background: #12326b;
-      color: #fff;
-      padding: 50px;
-    }
-
-    .rightsidecol {
-      background: #dcdcdc;
-      padding: 50px;
-    }
-
-    .qtcol {
-      padding: 50px;
-    }
-
-    .quotes::before {
-      content: " ";
-      display: block;
-      position: absolute;
-      width: 50px;
-      height: 50px;
-      background: url(./assets/quote_left.png);
-      background-size: 50px 50px;
-    }
-
-    .quotes::after {
-      content: " ";
-      display: block;
-      float: right;
-      width: 50px;
-      height: 50px;
-      background: url(./assets/quote_right.png);
-      background-size: 50px 50px;
-      margin-top: -60px;
-    }
-
-    .quotes p {
-      margin-left: 90px;
-      margin-right: 90px;
-    }
-
-
-    .row {
-      --bs-gutter-x: 0;
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .row>[class^="col-"] {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .rowfoot {
-      align-items: flex-start !important;
-      justify-content: flex-start !important;
-
-    }
-
-    .col-md-8 {
-      display: flex;
-    }
-
-    .col-md-8 .row {
-      flex: 1;
-    }
-
-
-    .containbg2 {
-      background-image: url(https://images.unsplash.com/39/wdXqHcTwSTmLuKOGz92L_Landscape.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1749&q=80);
-      background-position: top center;
-      background-repeat: repeat;
-      background-size: cover;
-    }
-
-    .bgcontain2 {
-      background-color: rgb(18 50 107 / 62%);
-      width: 80%;
-    }
-
-    .textin2 {
-      color: white;
-      width: 60%;
-    }
-
-    .textin2 h4 {
-      font-weight: 700;
-    }
-
-    .textin2 p {
-      font-weight: 100;
-      font-size: 0.9rem;
-    }
-
-    .textin2 hr {
-      display: block;
-      margin: 20px 0 5px;
-      width: 150px;
-      height: 3px;
-      background: #81BCBA;
-      border: 0;
-    }
-
-    .textin2 a {
-      color: #81BCBA;
-      text-decoration: none;
-    }
-
-    .formin2 {
-      color: white;
-      width: 40%;
-    }
-
-    .formin2 h3 {
-      color: #00317A;
-      font-weight: 900;
-    }
-
-    .formin2 form {
-      box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
-    }
-
-    .formin2 form small {
-      color: #89838E;
-    }
-
-    .imagefield {
-      width: 75%;
-    }
-
-    .imagefield h3::after {
-      content: " ";
-      display: block;
-      margin: 15px 0;
-      width: 150px;
-      height: 3px;
-      background: #7ebbb6;
-    }
-
-    .imagefield h3 {
-      color: #12326b;
-      text-transform: uppercase;
-      font-weight: 800;
-    }
-
-    .simple h4 {
-      color: #12326b;
-      text-transform: uppercase;
-      font-weight: 600;
-    }
-
-    .profimg {
-      width: 70%;
-      border-radius: 50%;
-      background-color: #272A27;
-    }
-
-    footer {
-      background-color: #123468;
-      color: white;
-    }
-
-    footer a {
-      color: white;
-      font-weight: 100;
-    }
-    .marginfoot {
-      margin: 10px 0;;
-    }
-    .circle {
-      display: inline-block;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    padding-right: 0;
-    margin-right: 15px;
-    background: #80bbb6;
-    text-align: center;
-    border-radius: 50%;
-    }
-    .footimg {
-      background-image: url(https://images.unsplash.com/photo-1485134532658-d720895a3b5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80) ;
-    }
-    .footimg div::after {
-      content: '';
-      margin: 1%;
-    }
-    .footimg::after {
-      content: '';
-      margin: 1%;
-    }
   </style>
 </head>
 
 <body>
   <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center containbg">
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light color-black m-auto">
+    <nav class="navbar fixed-top dark navbar-expand-lg navbar-light color-black m-auto">
       <div class="container-fluid w-75">
-        <a class="navbar-brand d-flex lh-1" href="#">
+        <a class="navbar-brand darkcolorlogo d-flex lh-1" href="#">
           <i class="fa fa-bell" aria-hidden="true"></i>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column d-none d-sm-block">
             <h3 class="fw-bolder">KETAMINE<span> CLINIC</span></h3>
             <p>OF PHILADELPHIA</p>
           </div>
@@ -386,8 +69,8 @@
       <div class="container position-relative bottom-20 contain2within ps-5 pe-5 pt-4 pb-5">
         <h3 class="fw-lighter"><span>Ketamine clinic</span> of PHILADELPHIA can help.</h3>
 
-        <div class="d-flex abtcontainer">
-          <div class="w-50 p-4">
+        <div class="d-flex flex-column flex-md-row abtcontainer">
+          <div class="w-100 w-md-50 p-4">
             <p class="mt-1">Ketamine infusion is a fast and effective way totreat patients
               with depression, certain anxiety disorders, and PTSD
               symptons that have failed previous treatment. It can be effective
@@ -395,13 +78,13 @@
               infusion works quickly, effectively, and with few known sife effects.</p>
             <p class="mt-1">Please look at our <a href="#">Frequently Asked Questions</a> for more information</p>
           </div>
-          <div class="contactblock w-50 p-4">
+          <div class="contactblock w-100 w-md-50 p-4">
             <a href="#">Contact us for more information and a free evaluation:</a>
             <p class="mt-3"><i class="fa fa-phone pe-2"></i> 215-588-1260</p>
-            <p></p><i class="fa fa-envelope pe-2"></i> info@kcofp.com</p>
-
+            <p><i class="fa fa-envelope pe-2"></i> info@kcofp.com</p>
           </div>
         </div>
+        
       </div>
       <div class="leafimg position-absolute bottom-50 end-0">
         <img src="./assets/leaves.jpg" width="520" height="347" alt=""
@@ -414,16 +97,19 @@
 
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-4">
-              <img class="w-100"
-                src="https://images.unsplash.com/photo-1540485104458-f27cfe2375b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
-                alt="">
+            <div class="col-md-4 col-sm-12" style="
+    background-image: url(https://images.unsplash.com/photo-1540485104458-f27cfe2375b3?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=464&amp;q=80);
+    background-size: cover;
+    background-position: center;
+"> <!-- Added col-sm-12 class to stack in a column on smaller screens -->
+              <img class="w-100" src="https://images.unsplash.com/photo-1540485104458-f27cfe2375b3?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=464&amp;q=80" alt="" style="
+    z-index: -10;
+">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-12"> <!-- Added col-sm-12 class to stack in a column on smaller screens -->
               <div class="row">
                 <div class="col-md-6 leftsidecol">
-                  Ketamine Infusion can lead to rapid reduction in depressive symptoms within hours unlike traditional
-                  treatments, which can take months.
+                  Ketamine Infusion can lead to rapid reduction in depressive symptoms within hours unlike traditional treatments, which can take months.
                 </div>
                 <div class="col-md-6 rightsidecol">
                   Ketamine can help as many as 80% of patients who have failed multiple other treatments for depression
@@ -434,8 +120,7 @@
               <div class="row">
                 <div class="col-md-12 qtcol">
                   <div class="quotes">
-                    <p>Ketamine saved my life! I'm hanging out with friends again and feel like I have a whole new
-                      purpose!</p>
+                    <p class="m-md-5 m-5">Ketamine saved my life! I'm hanging out with friends again and feel like I have a whole new purpose!</p>
                     <center>
                       <p><strong>30 year old female</strong></p>
                     </center>
@@ -445,6 +130,7 @@
             </div>
           </div>
         </div>
+        
 
 
 
@@ -453,8 +139,8 @@
 
   </div>
   <div class="container-fluid containbg2 pt-5 pb-5">
-    <div class="container bgcontain2 d-flex">
-      <div class="textin2 p-5">
+    <div class="container bgcontain2 d-flex flex-column flex-md-row">
+      <div class="textin2 p-5 w-100 w-md-50">
         <h4>Is Ketamine safe?</h4>
         <p>Ketamine infusion for depression has, thus far, been found to be extremely safe and without significant side
           effects. It is used at doses lower than what are used for anesthesia. <a href="#">></a></p>
@@ -468,9 +154,9 @@
         <p>We have created an easy yet thorough process to ensure that you are a good fit for ketamine infusion. Please
           visit <a href="#">this page</a> for the overview of the process. <a href="#">></a></p>
       </div>
-      <div class="formin2 position-relative p-1 pt-3">
+      <div class="formin2 w-100 w-md-50 position-relative p-1 pt-3">
 
-        <form class="bg-white position-absolute pe-5 ps-5 pt-4 pb-4 text-black">
+        <form class="bg-white customBreak position-absolute pe-5 ps-5 pt-4 pb-4 text-black">
           <center class="">
             <h3>CONTACT US NOW:</h3>
           </center>
@@ -567,7 +253,7 @@
       </div>
       <div class="col-md-4 rowfoot">
         <h2>CONTACTS</h2>
-        <div class="marginfoot">
+        <div class="marginfoot d-md-block d-flex flex-column align-items-center justify-content-center alig">
           <a><i class="fa fa-phone"></i> 215-588-1260</a><br>
           <a> <i class="fa fa-envelope"></i> info@kcofp.com</a><br>
           <a><i class="fa fa-map-marker"></i> 111 Forrest Ave, 2nd Floor Narbeth, PA 19072</a>
@@ -603,21 +289,37 @@
     <div></div>
     <div></div>
   </div>
-  <!-- <script>
+
+  <script>
     window.addEventListener('scroll', function() {
       const darkElements = document.querySelectorAll('.dark');
+      const darkcolorlogo = document.querySelectorAll('.darkcolorlogo');
+      const navLinks = document.querySelectorAll('.navbar-light .navbar-nav .nav-link');
   
       if (window.scrollY > 500) {
         darkElements.forEach(element => {
           element.style.setProperty('--bs-bg-opacity', '0.5');
         });
+        darkcolorlogo.forEach(element => {
+          element.style.setProperty('--bs-color-up', 'rgb(255 ,255 , 255,.9)');
+        });
+        navLinks.forEach(link => {
+          link.style.color = 'white'; // Set the color of .nav-link to white
+        });
       } else {
         darkElements.forEach(element => {
           element.style.setProperty('--bs-bg-opacity', '0.05');
         });
+        darkcolorlogo.forEach(element => {
+          element.style.setProperty('--bs-color-up', 'rgb(0, 0 , 0,.9)');
+        });
+        navLinks.forEach(link => {
+          link.style.color = ''; // Reset the color of .nav-link to default (black or as defined in your CSS)
+        });
       }
     });
-  </script> -->
+  </script>
+  
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
