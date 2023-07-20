@@ -119,6 +119,7 @@ a {
   background-color: rgba(18, 50, 107, var(--bs-bg-opacity)) !important;
   transition: 0.5s ease-in-out;
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 
 }
 .darkcolorlogo {
