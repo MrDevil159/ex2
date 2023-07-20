@@ -6,7 +6,7 @@ body {
 }
 
 .containbg {
-  background-image: url('https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+  background-image: url(./assets/scene.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -200,7 +200,7 @@ a {
 
 
 .containbg2 {
-  background-image: url(https://images.unsplash.com/39/wdXqHcTwSTmLuKOGz92L_Landscape.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1749&q=80);
+  background-image: url(./assets/mountain.png);
   background-position: top center;
   background-repeat: repeat;
   background-size: cover;
@@ -311,7 +311,7 @@ text-align: center;
 border-radius: 50%;
 }
 .footimg {
-  background-image: url(https://images.unsplash.com/photo-1485134532658-d720895a3b5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80) ;
+  background-image: url(./assets/leaf.png) ;
 }
 .footimg div::after {
   content: '';
