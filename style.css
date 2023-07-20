@@ -331,4 +331,8 @@ position: static !important;
   justify-content: center !important;
 
 }
+.contain2within {
+    width: 100%;
+}
+
 }
